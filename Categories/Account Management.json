@@ -1,0 +1,1576 @@
+[
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Computer Account Management",
+    "eventID": "4741",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A computer account was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Computer Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4741",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Computer Account Management",
+    "eventID": "4742",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A computer account was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Computer Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4742",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Computer Account Management",
+    "eventID": "4743",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A computer account was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Computer Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4743",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4744",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled local group was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4749",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4745",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled local group was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4750",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4746",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was added to a security-disabled local group",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4751",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4747",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was removed from a security-disabled local group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4752",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4748",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled local group was deleted. ",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4753",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4749",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled global group was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4749",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4750",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled global group was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4750",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4751",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was added to a security-disabled global group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4751",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4752",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was removed from a security-disabled global group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4752",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4753",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled global group was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4753",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4759",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled universal group was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4749",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4760",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled universal group was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4750",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4761",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was added to a security-disabled universal group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4751",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4762",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was removed from a security-disabled universal group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4752",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Distribution Group Management",
+    "eventID": "4763",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-disabled universal group was deleted. ",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Distribution Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4753",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Other Account Management Events",
+    "eventID": "4782",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The password hash of an account was accessed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Other Account Management Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4782",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Other Account Management Events",
+    "eventID": "4783",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Password Policy Checking API was called.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Other Account Management Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4783",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4727",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled global group was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4731",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4728",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was added to a security-enabled global group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4732",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4729",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was removed from a security-enabled global group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4733",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4730",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled global group was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4734",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4731",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled local group was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4731",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4732",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was added to a security-enabled local group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4732",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4733",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was removed from a security-enabled local group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4733",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4734",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled local group was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4734",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4735",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled local group was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4735",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4737",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled global group was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4735",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4754",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled universal group was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4731",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4755",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled universal group was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4735",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4756",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was added to a security-enabled universal group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4732",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4757",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A member was removed from a security-enabled universal group.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4733",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4758",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled universal group was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4734",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4764",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A group’s type was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4764",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit Security Group Management",
+    "eventID": "4799",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security-enabled local group membership was enumerated.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Security Group Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4799",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4720",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user account was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4720",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4722",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user account was enabled.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4722",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4723",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to change an account's password.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4723",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4724",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to reset an account's password.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4724",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4725",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user account was disabled.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4725",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4726",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user account was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4726",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4738",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user account was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4738",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4740",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user account was locked out.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4740",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4765",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "SID History was added to an account.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4765",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4766",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt to add SID History to an account failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4766",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4767",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user account was unlocked.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4767",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4780",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The ACL was set on accounts which are members of administrators groups.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4780",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4781",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The name of an account was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4781",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4794",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to set the Directory Services Restore Mode administrator password.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4794",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "4798",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user's local group membership was enumerated.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4798",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "5376",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Credential Manager credentials were backed up.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5376",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Management",
+    "subCategory": "Audit User Account Management",
+    "eventID": "5377",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Credential Manager credentials were restored from a backup.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit User Account Management",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5377",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  }
+]

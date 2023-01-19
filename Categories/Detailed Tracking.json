@@ -1,0 +1,440 @@
+[
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit DPAPI Activity",
+    "eventID": "4692",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Backup of data protection master key was attempted.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit DPAPI Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4692",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit DPAPI Activity",
+    "eventID": "4693",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Recovery of data protection master key was attempted.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit DPAPI Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4693",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit DPAPI Activity",
+    "eventID": "4694",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Protection of auditable protected data was attempted.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit DPAPI Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4694",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit DPAPI Activity",
+    "eventID": "4695",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Unprotection of auditable protected data was attempted.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit DPAPI Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4695",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit PNP Activity",
+    "eventID": "6416",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A new external device was recognized by the System.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit PNP Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6416",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit PNP Activity",
+    "eventID": "6419",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A request was made to disable a device.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit PNP Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6419",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit PNP Activity",
+    "eventID": "6420",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A device was disabled.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit PNP Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6420",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit PNP Activity",
+    "eventID": "6421",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A request was made to enable a device.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit PNP Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6421",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit PNP Activity",
+    "eventID": "6422",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A device was enabled.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit PNP Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6422",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit PNP Activity",
+    "eventID": "6423",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The installation of this device is forbidden by system policy.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit PNP Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6423",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit PNP Activity",
+    "eventID": "6424",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The installation of this device was allowed, after having previously been forbidden by policy.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit PNP Activity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6424",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit Process Creation",
+    "eventID": "4688",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A new process has been created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit Process Creation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4688",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": "Medium to High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit Process Creation",
+    "eventID": "4696",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A primary token was assigned to process.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit Process Creation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4696",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": "Medium to High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit Process Termination",
+    "eventID": "4689",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A process has exited.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit Process Termination",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4689",
+    "volume": {
+      "DomainController": "Low to Medium",
+      "Server": "Low to Medium",
+      "Workstation": "Low to Medium"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit RPC Events",
+    "eventID": "5712",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A Remote Procedure Call (RPC) was attempted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit RPC Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5712",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Detailed Tracking",
+    "subCategory": "Audit Token Right Adjusted",
+    "eventID": "4703",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A user right was adjusted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Detailed Tracking\\Audit Token Right Adjusted",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4703",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": "Medium to High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  }
+]

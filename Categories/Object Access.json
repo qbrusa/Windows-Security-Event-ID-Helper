@@ -1,0 +1,2160 @@
+[
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Central Access Policy Staging",
+    "eventID": "4618",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Central Access Policy Staging",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4618",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Detailed File Share",
+    "eventID": "5145",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A network share object was checked to see whether client can be granted desired access.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Detailed File Share",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5145",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "4656",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A handle to an object was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4656",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "4658",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The handle to an object was closed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4658",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "4660",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An object was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4660",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "4663",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to access an object.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4663",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "4664",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to create a hard link.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4664",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "4670",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Permissions on an object were changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4670",
+    "volume": {
+      "DomainController": "Varies, depending on how file system SACLs are configured.",
+      "Server": "Varies, depending on how file system SACLs are configured.",
+      "Workstation": "Varies, depending on how file system SACLs are configured."
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "4985",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The state of a transaction has changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4985",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File System",
+    "eventID": "5051",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A file was virtualized",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File System",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5051",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5031",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Service blocked an application from accepting incoming connections on the network.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5031",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5150",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform blocked a packet.",
+    "availableSettings": [
+      ""
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5150",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5151",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A more restrictive Windows Filtering Platform filter has blocked a packet.",
+    "availableSettings": [
+      ""
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5151",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5154",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5154",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5155",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5155",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5156",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform has permitted a connection.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5156",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5157",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform has blocked a connection.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5157",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5158",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform has permitted a bind to a local port.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5158",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Connection",
+    "eventID": "5159",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform has blocked a bind to a local port.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Connection",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5159",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Packet Drop",
+    "eventID": "5152",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform blocked a packet.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Packet Drop",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5152",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Filtering Platform Packet Drop",
+    "eventID": "5153",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A more restrictive Windows Filtering Platform filter has blocked a packet.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Filtering Platform Packet Drop",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5153",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Handle Manipulation",
+    "eventID": "4658",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The handle to an object was closed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Handle Manipulation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4658",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Handle Manipulation",
+    "eventID": "4690",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to duplicate a handle to an object.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Handle Manipulation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4690",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Kernel Object",
+    "eventID": "4656",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A handle to an object was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Kernel Object",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4656",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Kernel Object",
+    "eventID": "4658",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The handle to an object was closed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Kernel Object",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4658",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Kernel Object",
+    "eventID": "4660",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An object was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Kernel Object",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4660",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Kernel Object",
+    "eventID": "4663",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to access an object.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Kernel Object",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4663",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "4671",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An application attempted to access a blocked ordinal through the TBS.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4671",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "4691",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Indirect access to an object was requested.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4691",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "4698",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A scheduled task was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4698",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "4699",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A scheduled task was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4699",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "4700",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A scheduled task was enabled.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4700",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "4701",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A scheduled task was disabled.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4701",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "4702",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A scheduled task was updated.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4702",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "5148",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Filtering Platform has detected a DoS attack and entered a defensive mode; packets associated with this attack will be discarded.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5148",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "5149",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The DoS attack has subsided and normal processing is being resumed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5149",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "5888",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An object in the COM+ Catalog was modified.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5888",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "5889",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An object was deleted from the COM+ Catalog.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5889",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Other Object Access Events",
+    "eventID": "5890",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An object was added to the COM+ Catalog.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Other Object Access Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5890",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Registry",
+    "eventID": "4656",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A handle to an object was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Registry",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4656",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Registry",
+    "eventID": "4657",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A registry value was modified.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Registry",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4657",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Registry",
+    "eventID": "4658",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The handle to an object was closed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Registry",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4658",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Registry",
+    "eventID": "4660",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An object was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Registry",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4660",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Registry",
+    "eventID": "4670",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Permissions on an object were changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Registry",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4670",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Registry",
+    "eventID": "5039",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A registry key was virtualized.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Registry",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5039",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Registry",
+    "eventID": "4663",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to access an object.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Registry",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4663",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Application Generated",
+    "eventID": "4665",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to create an application client context.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Application Generated",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Application Generated",
+    "eventID": "4666",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An application attempted an operation.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Application Generated",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Application Generated",
+    "eventID": "4667",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An application client context was deleted.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Application Generated",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Application Generated",
+    "eventID": "4668",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An application was initialized.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Application Generated",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4868",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The certificate manager denied a pending certificate request.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4869",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services received a resubmitted certificate request.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4870",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services revoked a certificate.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4871",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services received a request to publish the certificate revocation list (CRL).",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4872",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services published the certificate revocation list (CRL).",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4873",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A certificate request extension changed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4874",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "One or more certificate request attributes changed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4875",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services received a request to shut down.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4876",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services backup started.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4877",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services backup completed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4878",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services restore started.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4879",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services restore completed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4880",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services started.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4881",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services stopped.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4882",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The security permissions for Certificate Services changed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4883",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services retrieved an archived key.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4884",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services imported a certificate into its database.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4885",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The audit filter for Certificate Services changed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4886",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services received a certificate request.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4887",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services approved a certificate request and issued a certificate.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4888",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services denied a certificate request.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4889",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services set the status of a certificate request to pending.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4890",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The certificate manager settings for Certificate Services changed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4891",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A configuration entry changed in Certificate Services.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4892",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A property of Certificate Services changed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4893",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services archived a key.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4894",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services imported and archived a key.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4895",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services published the CA certificate to Active Directory Domain Services.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4896",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "One or more rows have been deleted from the certificate database.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4897",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Role separation enabled.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Certification Services",
+    "eventID": "4898",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Certificate Services loaded a template.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Certification Services",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Low to medium",
+      "Server": "Low to medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Removable Storage",
+    "eventID": "4663",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An attempt was made to access an object.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Removable Storage",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4663",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Removable Storage",
+    "eventID": "4656",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A handle to an object was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Removable Storage",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4656",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit Removable Storage",
+    "eventID": "4658",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The handle to an object was closed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit Removable Storage",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4658",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  }
+]

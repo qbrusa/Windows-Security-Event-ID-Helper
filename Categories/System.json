@@ -1,0 +1,1412 @@
+[
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5024",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Service has started successfully.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5024",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5025",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Service has been stopped.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5025",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5027",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Service was unable to retrieve the security policy from the local storage. The service will continue enforcing the current policy.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5027",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5028",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Service was unable to parse the new security policy. The service will continue with currently enforced policy.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5028",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5029",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Service failed to initialize the driver. The service will continue to enforce the current policy.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5029",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5030",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Service failed to start.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5030",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5032",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5032",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5033",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Driver has started successfully.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5033",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5034",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Driver was stopped.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5034",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5035",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Driver failed to start.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5035",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5037",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The Windows Firewall Driver detected critical runtime error. Terminating.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5037",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5058",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Key file operation.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5058",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "5059",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Key migration operation.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5059",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6400",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "BranchCache: Received an incorrectly formatted response while discovering availability of content.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6400",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6401",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "BranchCache: Received invalid data from a peer. Data discarded.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6401",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6402",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "BranchCache: The message to the hosted cache offering it data is incorrectly formatted.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6402",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6403",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "BranchCache: The hosted cache sent an incorrectly formatted response to the client.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6403",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6404",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "BranchCache: Hosted cache could not be authenticated using the provisioned SSL certificate.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6404",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6405",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "BranchCache: %2 instance(s) of event id %1 occurred.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6405",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6406",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "%1 registered to Windows Firewall to control filtering for the following: %2.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6406",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6407",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "1%.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6407",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6408",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Registered product %1 failed and Windows Firewall is now controlling the filtering for %2.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6408",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Other System Events",
+    "eventID": "6409",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "BranchCache: A service connection point object could not be parsed.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Other System Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6409",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security State Change",
+    "eventID": "4608",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Windows is starting up.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security State Change",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4608",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security State Change",
+    "eventID": "4616",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The system time was changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security State Change",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4616",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security State Change",
+    "eventID": "4621",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Administrator recovered system from CrashOnAuditFail.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security State Change",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4621",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security System Extension",
+    "eventID": "4610",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An authentication package has been loaded by the Local Security Authority.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security System Extension",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4610",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security System Extension",
+    "eventID": "4611",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A trusted logon process has been registered with the Local Security Authority.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security System Extension",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4611",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security System Extension",
+    "eventID": "4614",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A notification package has been loaded by the Security Account Manager.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security System Extension",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4614",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security System Extension",
+    "eventID": "4622",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A security package has been loaded by the Local Security Authority.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security System Extension",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4622",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit Security System Extension",
+    "eventID": "4697",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A service was installed in the system.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit Security System Extension",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4697",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "4612",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4612",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "4615",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Invalid use of LPC port.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4615",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "4618",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A monitored security event pattern has occurred.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4618",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "4816",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "RPC detected an integrity violation while decrypting an incoming message.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4816",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "5038",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Code integrity determined that the image hash of a file is not valid. The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5038",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "5056",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A cryptographic self-test was performed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5056",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "5057",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A cryptographic primitive operation failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5057",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "5060",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Verification operation failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5060",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "5061",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Cryptographic operation.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5061",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "5062",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A kernel-mode cryptographic self-test was performed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5062",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "6281",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Code Integrity determined that the page hashes of an image file aren't valid. The file could be improperly signed without page hashes or corrupt due to unauthorized modification. The invalid hashes could indicate a potential disk device error.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6281",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit System Integrity",
+    "eventID": "6410",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Code integrity determined that a file does not meet the security requirements to load into a process.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit System Integrity",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-6410",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "4960",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec dropped an inbound packet that failed an integrity check. If this problem persists, it could indicate a network issue or that packets are being modified in transit to this computer. Verify that the packets sent from the remote computer are the same as those received by this computer. This error might also indicate interoperability problems with other IPsec implementations.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "4962",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec dropped an inbound packet that failed a replay check. If this problem persists, it could indicate a replay attack against this computer.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "4963",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec dropped an inbound clear text packet that should have been secured. This is usually due to the remote computer changing its IPsec policy without informing this computer. This could also be a spoofing attack attempt.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "4965",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI). This is usually caused by malfunctioning hardware that is corrupting packets. If these errors persist, verify that the packets sent from the remote computer are the same as those received by this computer. This error may also indicate interoperability problems with other IPsec implementations. In that case, if connectivity is not impeded, then these events can be ignored.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "5478",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Services has started successfully.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "5479",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Services has been shut down successfully. The shutdown of IPsec Services can put the computer at greater risk of network attack or expose the computer to potential security risks.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "5480",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Services failed to get the complete list of network interfaces on the computer. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "5483",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Services failed to initialize RPC server. IPsec Services could not be started.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "5484",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Services has experienced a critical failure and has been shut down. The shutdown of IPsec Services can put the computer at greater risk of network attack or expose the computer to potential security risks.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "System",
+    "subCategory": "Audit IPsec Driver",
+    "eventID": "5485",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Services failed to process some IPsec filters on a plug-and-play event for network interfaces. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\System\\Audit IPsec Driver",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  }
+]

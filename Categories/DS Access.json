@@ -1,0 +1,483 @@
+[
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4928",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An Active Directory replica source naming context was established.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4928",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4929",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An Active Directory replica source naming context was removed.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4929",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4930",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An Active Directory replica source naming context was modified.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4930",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4931",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An Active Directory replica destination naming context was modified.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4931",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4934",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Attributes of an Active Directory object were replicated.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4934",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4935",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Replication failure begins.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4935",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4936",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Replication failure ends.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4936",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Detailed Directory Service Replication",
+    "eventID": "4937",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A lingering object was removed from a replica.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4937",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Access",
+    "eventID": "4661",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A handle to an object was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Access",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4661",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Access",
+    "eventID": "4662",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An operation was performed on an object.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Access",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4662",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Changes",
+    "eventID": "5136",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A directory service object was modified.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Changes",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5136",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Changes",
+    "eventID": "5137",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A directory service object was created.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Changes",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5137",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Changes",
+    "eventID": "5138",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A directory service object was undeleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Changes",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5138",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Changes",
+    "eventID": "5139",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A directory service object was moved.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Changes",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5139",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Changes",
+    "eventID": "5141",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A directory service object was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Changes",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5141",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Replication",
+    "eventID": "4932",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Synchronization of a replica of an Active Directory naming context has begun.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4932",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Replication",
+    "eventID": "4933",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Synchronization of a replica of an Active Directory naming context has ended.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Replication",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4933",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "DS Access",
+    "subCategory": "Audit Directory Service Access",
+    "eventID": "4661",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A handle to an object was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Directory Service Access",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4661",
+    "volume": {
+      "DomainController": "High",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  }
+]

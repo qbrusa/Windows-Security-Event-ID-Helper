@@ -1,0 +1,195 @@
+[
+  {
+    "category": "Privilege Use",
+    "subCategory": "Audit Non-Sensitive Privilege Use",
+    "eventID": "4673",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A privileged service was called.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Privilege Use\\Audit Non-Sensitive Privilege Use",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4673",
+    "volume": {
+      "DomainController": "Very High",
+      "Server": "Very High",
+      "Workstation": "Very High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Privilege Use",
+    "subCategory": "Audit Non-Sensitive Privilege Use",
+    "eventID": "4674",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An operation was attempted on a privileged object.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Privilege Use\\Audit Non-Sensitive Privilege Use",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4674",
+    "volume": {
+      "DomainController": "Very High",
+      "Server": "Very High",
+      "Workstation": "Very High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Privilege Use",
+    "subCategory": "Audit Non-Sensitive Privilege Use",
+    "eventID": "4985",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The state of a transaction has changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Privilege Use\\Audit Non-Sensitive Privilege Use",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4985",
+    "volume": {
+      "DomainController": "Very High",
+      "Server": "Very High",
+      "Workstation": "Very High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Privilege Use",
+    "subCategory": "Audit Other Privilege Use",
+    "eventID": "4985",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The state of a transaction has changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Privilege Use\\Audit Other Privilege Use",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4985",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Privilege Use",
+    "subCategory": "Audit Sensitive Privilege Use",
+    "eventID": "4673",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A privileged service was called.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Privilege Use\\Audit Sensitive Privilege Use",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4673",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Privilege Use",
+    "subCategory": "Audit Sensitive Privilege Use",
+    "eventID": "4674",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An operation was attempted on a privileged object.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Privilege Use\\Audit Sensitive Privilege Use",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4674",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Privilege Use",
+    "subCategory": "Audit Sensitive Privilege Use",
+    "eventID": "4985",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The state of a transaction has changed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Privilege Use\\Audit Sensitive Privilege Use",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4985",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  }
+]

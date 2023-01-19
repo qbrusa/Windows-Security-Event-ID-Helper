@@ -1,0 +1,138 @@
+[
+  {
+    "category": "Other Events",
+    "subCategory": "Other Events",
+    "eventID": "1100",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The event logging service has shut down.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Other Events\\Other Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1100",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Other Events",
+    "subCategory": "Other Events",
+    "eventID": "1102",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The audit log was cleared.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Other Events\\Other Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1102",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Other Events",
+    "subCategory": "Other Events",
+    "eventID": "1104",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The security log is now full.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Other Events\\Other Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1104",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Other Events",
+    "subCategory": "Other Events",
+    "eventID": "1105",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Event log automatic backup",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Other Events\\Other Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1105",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Other Events",
+    "subCategory": "Other Events",
+    "eventID": "1108",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The event logging service encountered an error while processing an incoming event published from %1.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Other Events\\Other Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-1108",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  }
+]

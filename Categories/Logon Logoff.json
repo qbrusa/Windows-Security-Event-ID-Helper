@@ -1,0 +1,1313 @@
+[
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Account Lockout",
+    "eventID": "4625",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An account failed to log on.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Account Lockout",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Group Membership",
+    "eventID": "4627",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Group membership information.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Group Membership",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Extended Mode",
+    "eventID": "4978",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "During Extended Mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Extended Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Extended Mode",
+    "eventID": "4979",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Main Mode and Extended Mode security associations were established.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Extended Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Extended Mode",
+    "eventID": "4980",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Main Mode and Extended Mode security associations were established.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Extended Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Extended Mode",
+    "eventID": "4981",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Main Mode and Extended Mode security associations were established.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Extended Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Extended Mode",
+    "eventID": "4982",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "IPsec Main Mode and Extended Mode security associations were established.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Extended Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Extended Mode",
+    "eventID": "4983",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Extended Mode negotiation failed. The corresponding Main Mode security association has been deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Extended Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Extended Mode",
+    "eventID": "4984",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": " An IPsec Extended Mode negotiation failed. The corresponding Main Mode security association has been deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Extended Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Logoff",
+    "eventID": "4634",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An account was logged off.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Logoff",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4634",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Logoff",
+    "eventID": "4647",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "User initiated logoff.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Logoff",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4647",
+    "volume": {
+      "DomainController": "High",
+      "Server": "High",
+      "Workstation": "High"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Logon",
+    "eventID": "4624",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An account was successfully logged on.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Logon",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Logon",
+    "eventID": "4625",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An account failed to log on.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Logon",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Logon",
+    "eventID": "4648",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A logon was attempted using explicit credentials.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Logon",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4648",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Logon",
+    "eventID": "4675",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "SIDs were filtered.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Logon",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4675",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "4649",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A replay attack was detected.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4649",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "4678",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A session was reconnected to a Window Station.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4678",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "4679",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A session was disconnected from a Window Station.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4679",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "4800",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The workstation was locked.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4800",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "4801",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The workstation was unlocked.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4801",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "4802",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The screen saver was invoked.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4802",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "4803",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The screen saver was dismissed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4803",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "5378",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The requested credentials delegation was disallowed by policy.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5378",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "5632",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A request was made to authenticate to a wireless network.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5632",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Other Logon/Logoff Events",
+    "eventID": "5633",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A request was made to authenticate to a wired network.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Other Logon/Logoff Events",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5633",
+    "volume": {
+      "DomainController": "Low",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Special Logon",
+    "eventID": "4672",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Special privileges assigned to new logon.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Special Logon",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4672",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Special Logon",
+    "eventID": "4964",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Special groups have been assigned to a new logon.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Special Logon",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4964",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit User/Device Claims",
+    "eventID": "4626",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "User/Device claims information.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit User/Device Claims",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4626",
+    "volume": {
+      "DomainController": "Medium",
+      "Server": "Medium",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "4646",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Security ID: %1",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "4650",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Main Mode security association was established. Extended Mode was not enabled. Certificate authentication was not used.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "4651",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Main Mode security association was established. Extended Mode was not enabled. A certificate was used for authentication.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "4652",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Main Mode negotiation failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "4653",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Main Mode negotiation failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "4655",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Main Mode security association ended.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "4976",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "During Main Mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "5049",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Security Association was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Main Mode",
+    "eventID": "5453",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit IPsec Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Quick Mode",
+    "eventID": "4977",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "During Quick Mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Quick Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Quick Mode",
+    "eventID": "5451",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Quick Mode security association was established.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Quick Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit IPsec Quick Mode",
+    "eventID": "5452",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An IPsec Quick Mode security association ended.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Quick Main Mode",
+    "documentation": "",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "IF"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6272",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server granted access to a user.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6273",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server denied access to a user.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6274",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server discarded the request for a user.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6275",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server discarded the accounting request for a user.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6276",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server quarantined a user.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6277",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6278",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server granted full access to a user because the host met the defined health policy.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6279",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server locked the user account due to repeated failed authentication attempts.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  },
+  {
+    "category": "Logon Logoff",
+    "subCategory": "Audit Network Policy Server",
+    "eventID": "6280",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Network Policy Server unlocked the user account.",
+    "availableSettings": [],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Logon Logoff\\Audit Network Policy Server",
+    "documentation": "",
+    "volume": {
+      "DomainController": "Medium to High",
+      "Server": "Medium to High",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "IF",
+      "Server": "IF",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": []
+  }
+]

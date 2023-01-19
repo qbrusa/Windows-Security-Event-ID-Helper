@@ -1,0 +1,264 @@
+[
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Credential Validation",
+    "eventID": "4774",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An account was mapped for logon.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Credential Validation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4774",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Credential Validation",
+    "eventID": "4775",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "An account could not be mapped for logon",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Credential Validation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4775",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Credential Validation",
+    "eventID": "4776",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The computer attempted to validate the credentials for an account.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Credential Validation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4776",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Credential Validation",
+    "eventID": "4777",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "The domain controller failed to validate the credentials for an account.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Credential Validation",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4777",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
+    },
+    "securityMonitoringRecommandation": "No",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Kerberos Authentication Service",
+    "eventID": "4768",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A Kerberos authentication ticket (TGT) was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Kerberos Authentication Service",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4768",
+    "volume": {
+      "DomainController": "High",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Kerberos Authentication Service",
+    "eventID": "4771",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "Kerberos pre-authentication failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Kerberos Authentication Service",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4771",
+    "volume": {
+      "DomainController": "High",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Kerberos Authentication Service",
+    "eventID": "4771",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A Kerberos authentication ticket request failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Kerberos Authentication Service",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4772",
+    "volume": {
+      "DomainController": "High",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Kerberos Service Ticket Operations",
+    "eventID": "4769",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A Kerberos service ticket was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Kerberos Service Ticket Operations",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4769",
+    "volume": {
+      "DomainController": "High",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "JSCU-NL",
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  },
+  {
+    "category": "Account Logon",
+    "subCategory": "Audit Kerberos Service Ticket Operations",
+    "eventID": "4770",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A Kerberos service ticket was renewed.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Logon\\Audit Kerberos Service Ticket Operations",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4770",
+    "volume": {
+      "DomainController": "High",
+      "Server": "NA",
+      "Workstation": "NA"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
+  }
+]
