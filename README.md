@@ -3,6 +3,15 @@
 # Microsoft Event Matrix
 
 The goal of this project is to gather all Security Event IDs in a json file and add connections to GPO settings. The end result allows you to filter on a each GPO setting and display all Event IDs produced by it. Additionally, tags were applied to each event ID per the advice of Microsoft or other security firms (See tags section for more informations). For SOC analysts and security engineers who want to specify a log collection strategy, this repository is helpful.
+
+# Files
+You can find in the root folder :
+- Categories folder which contains each Advanced Audit policy settings categories and Event IDs
+- AdvancedSecurityEventIDs.json (Categories combined in one Json file)
+- AdvancedSecurityEventIDs.csv (Json to Csv)
+
+# Scripts
+You can divide or combine Json files using the scripts in the scripts folder.
         
 # Tags
 Below the descriptions of each tag and the source of the recommendation :
