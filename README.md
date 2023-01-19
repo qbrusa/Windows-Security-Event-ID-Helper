@@ -1,6 +1,6 @@
 # Under Construction :construction:
 
-# Microsoft Event Matrix
+# Windows Security Event ID Helper
 
 The goal of this project is to gather all Security Event IDs in a json file and add connections to GPO settings. The end result allows you to filter on a each GPO setting and display all Event IDs produced by it. Additionally, tags were applied to each event ID per the advice of Microsoft or other security firms (See tags section for more informations). For SOC analysts and security engineers who want to specify a log collection strategy, this repository is helpful.
 
