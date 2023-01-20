@@ -16,8 +16,8 @@ You can divide or combine Json files using the scripts in the [script folder](sc
 # Tags
 Below the descriptions of each tag and the source of the recommendation :
 - JSCU-NL = ALl event from https://github.com/JSCU-NL/logging-essentials/blob/main/WindowsEventLogging.adoc based on multiple sources (https://github.com/JSCU-NL/logging-essentials#sources--additional-links)
-- SRV-ETM = [Events to Monitor recommandation by Microsoft] (https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
-- YAMATO = Each event with rules or Not Yet from [Yamato repositories] (https://github.com/Yamato-Security/EnableWindowsLogSettings/blob/main/ConfiguringSecurityLogAuditPolicies.md)
+- SRV-ETM = [Events to Monitor recommandation by Microsoft](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/appendix-l--events-to-monitor)
+- YAMATO = Each event with rules or Not Yet from [Yamato repositories](https://github.com/Yamato-Security/EnableWindowsLogSettings/blob/main/ConfiguringSecurityLogAuditPolicies.md)
 - MDE = All events from Olaf Hartung [defender analysis post](https://medium.com/falconforce/microsoft-defender-for-endpoint-internals-0x02-audit-settings-and-telemetry-1d0af3ebfb27)
 - ANSSI = From [ANSSI-FR selection](https://github.com/ANSSI-FR/guide-journalisation-microsoft/blob/main/Standard_WEC_query.xml)
 
