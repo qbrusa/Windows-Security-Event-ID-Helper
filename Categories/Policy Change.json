@@ -298,13 +298,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4706",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -327,13 +327,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4707",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -355,13 +355,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4713",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -385,13 +385,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4716",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -500,13 +500,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4864",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
     "tags": []
@@ -526,13 +526,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4865",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -555,13 +555,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4866",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -584,13 +584,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4867",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [

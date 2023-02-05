@@ -578,13 +578,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4731",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -668,13 +668,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4734",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -846,13 +846,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4735",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -876,13 +876,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4731",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -906,13 +906,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4735",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -936,13 +936,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4732",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -1326,13 +1326,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4765",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "Success",
-      "Workstation": "Success"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
@@ -1355,8 +1355,8 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4766",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Failure",
@@ -1473,13 +1473,13 @@
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4794",
     "volume": {
       "DomainController": "Low",
-      "Server": "Low",
-      "Workstation": "Low"
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success and Failure",
-      "Server": "Success and Failure",
-      "Workstation": "Success and Failure"
+      "Server": "",
+      "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
