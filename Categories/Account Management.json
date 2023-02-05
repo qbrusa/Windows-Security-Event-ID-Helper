@@ -521,9 +521,9 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Other Account Management Events",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4782",
     "volume": {
-      "DomainController": "High",
-      "Server": "Low",
-      "Workstation": "Low"
+      "DomainController": "Low",
+      "Server": "",
+      "Workstation": ""
     },
     "microsoftBaseline": {
       "DomainController": "Success",
@@ -538,7 +538,7 @@
   {
     "category": "Account Management",
     "subCategory": "Audit Other Account Management Events",
-    "eventID": "4783",
+    "eventID": "4793",
     "level": "Information",
     "channel": "Security",
     "provider": "Microsoft-Windows-Security-Auditing",
@@ -547,16 +547,16 @@
       "Success"
     ],
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Account Management\\Audit Other Account Management Events",
-    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4783",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4793",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Low",
       "Server": "Low",
       "Workstation": "Low"
     },
     "microsoftBaseline": {
       "DomainController": "Success",
-      "Server": "",
-      "Workstation": ""
+      "Server": "Success",
+      "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
