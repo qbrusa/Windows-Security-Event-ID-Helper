@@ -11,7 +11,7 @@ You can find in the root folder :
 - [AdvancedSecurityEventIDs.csv](AdvancedSecurityEventIDs.csv) (Json to Csv)
 
 # Scripts
-You can divide or combine Json files using the scripts in the [script folder](script folder).
+You can divide or combine Json files using the scripts in the [Scripts](script folder).
         
 # Tags
 Below the descriptions of each tag and the source of the recommendation :
