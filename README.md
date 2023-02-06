@@ -23,6 +23,7 @@ Below the descriptions of each tag and the source of the recommendation :
 
 # Sources to build this project
 - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings
+- https://ela.st/tjs-winevt-auditing
 - https://github.com/JSCU-NL/logging-essentials
 
 # 🍰 Contributing    
