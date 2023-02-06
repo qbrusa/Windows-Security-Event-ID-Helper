@@ -14,7 +14,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4928",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -41,7 +41,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4929",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -68,7 +68,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4930",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -95,7 +95,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4931",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -121,7 +121,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4934",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -147,7 +147,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4935",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -173,7 +173,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4936",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -199,7 +199,7 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\DS Access\\Audit Detailed Directory Service Replication",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4937",
     "volume": {
-      "DomainController": "High",
+      "DomainController": "Very High",
       "Server": "",
       "Workstation": ""
     },
@@ -421,7 +421,7 @@
       "Server": "No",
       "Workstation": "No"
     },
-    "securityMonitoringRecommandation": "No",
+    "securityMonitoringRecommandation": "Yes",
     "tags": []
   },
   {
@@ -448,7 +448,7 @@
       "Server": "No",
       "Workstation": "No"
     },
-    "securityMonitoringRecommandation": "No",
+    "securityMonitoringRecommandation": "Yes",
     "tags": []
   },
   {
