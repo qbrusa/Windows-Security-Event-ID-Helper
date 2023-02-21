@@ -25,7 +25,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -54,7 +55,9 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -82,7 +85,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "YAMATO"
     ]
   },
   {
@@ -109,7 +113,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -136,7 +143,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -164,7 +173,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -222,7 +233,9 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -251,7 +264,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -280,7 +294,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -309,7 +324,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -337,7 +353,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -367,7 +384,8 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "YAMATO"
     ]
   },
   {
@@ -396,7 +414,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -425,7 +444,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -453,7 +473,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -482,7 +503,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -509,7 +531,10 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -537,7 +562,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -566,7 +592,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -595,7 +622,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -623,7 +651,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -651,7 +680,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -678,7 +708,10 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -704,7 +737,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -730,7 +765,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -756,7 +793,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -782,7 +822,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -808,7 +851,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -834,7 +880,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -860,7 +909,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -886,7 +938,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -912,7 +967,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -938,7 +996,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -964,7 +1025,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -990,7 +1054,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1016,7 +1083,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1042,7 +1112,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1068,7 +1141,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1094,7 +1170,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1200,7 +1279,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1224,7 +1305,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1251,7 +1334,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1278,7 +1363,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1305,7 +1392,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1332,7 +1421,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1359,7 +1450,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1386,7 +1479,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1413,7 +1508,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1440,7 +1537,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1466,7 +1565,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1492,7 +1593,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1547,7 +1650,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -1575,7 +1680,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -1602,7 +1709,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1628,7 +1737,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1654,7 +1765,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1680,7 +1793,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1706,7 +1821,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1732,7 +1849,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1758,7 +1877,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1784,7 +1905,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1810,7 +1933,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1836,7 +1961,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1862,7 +1989,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1888,7 +2017,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1914,7 +2045,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1940,7 +2073,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1966,7 +2101,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -1992,7 +2129,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2018,7 +2157,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2044,7 +2185,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2070,7 +2213,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2096,7 +2241,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2122,7 +2269,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2148,7 +2297,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2174,7 +2325,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2200,7 +2353,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2226,7 +2381,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2252,7 +2409,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2278,7 +2437,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2304,7 +2465,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2330,7 +2493,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2356,7 +2521,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2382,7 +2549,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2408,7 +2577,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2434,7 +2605,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2460,7 +2633,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2486,7 +2661,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2512,7 +2689,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2538,7 +2717,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2564,7 +2745,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2590,7 +2773,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Policy Change",
@@ -2616,6 +2801,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   }
 ]

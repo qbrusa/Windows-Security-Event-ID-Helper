@@ -24,7 +24,12 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "SRV-ETM",
+      "MDE",
+      "YAMATO",
+      "ANSSI",
+      "CORTEX"
     ]
   },
   {
@@ -52,7 +57,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "YAMATO"
     ]
   },
   {
@@ -79,7 +85,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -105,7 +113,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -131,7 +141,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -157,7 +169,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -183,7 +197,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -268,7 +284,8 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "YAMATO"
     ]
   },
   {
@@ -298,7 +315,8 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "YAMATO"
     ]
   },
   {
@@ -328,7 +346,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "MDE",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -357,7 +378,11 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO",
+      "ANSSI",
+      "CORTEX"
     ]
   },
   {
@@ -387,7 +412,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "MDE",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -445,7 +473,8 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "YAMATO"
     ]
   },
   {
@@ -529,7 +558,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "CORTEX"
+      "CORTEX",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -557,7 +588,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "CORTEX"
+      "CORTEX",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -585,7 +618,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "CORTEX"
+      "CORTEX",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -613,7 +648,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "CORTEX"
+      "CORTEX",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -640,7 +677,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -668,7 +707,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "SRV-ETM",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -696,7 +738,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -725,7 +770,9 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -753,7 +800,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -806,7 +854,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -832,7 +882,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -858,7 +910,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -884,7 +938,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -910,7 +966,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -936,7 +994,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -962,7 +1022,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -988,7 +1050,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1014,7 +1078,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1040,7 +1106,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1066,7 +1134,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1092,7 +1162,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1116,7 +1188,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1140,7 +1215,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1164,7 +1241,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1188,7 +1267,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1212,7 +1293,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1236,7 +1319,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1260,7 +1345,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1284,7 +1371,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Logon Logoff",
@@ -1308,6 +1397,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
   }
 ]

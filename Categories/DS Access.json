@@ -24,7 +24,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -51,7 +53,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -78,7 +82,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -105,7 +111,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -131,7 +139,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -157,7 +167,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -183,7 +195,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -209,7 +223,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -236,7 +252,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "DS Access",
@@ -265,7 +284,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "YAMATO"
     ]
   },
   {
@@ -292,7 +312,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "DS Access",
@@ -318,7 +341,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "DS Access",
@@ -344,7 +370,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "DS Access",
@@ -370,7 +399,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "DS Access",
@@ -396,7 +428,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "DS Access",
@@ -422,7 +457,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -449,7 +486,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "DS Access",
@@ -477,7 +516,8 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   }
 ]

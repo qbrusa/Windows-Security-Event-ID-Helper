@@ -26,7 +26,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -55,7 +56,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -82,7 +84,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Privilege Use",
@@ -108,7 +113,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Privilege Use",
@@ -136,7 +144,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -164,7 +174,10 @@
       "Workstation": "Success and Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Privilege Use",
@@ -190,6 +203,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   }
 ]

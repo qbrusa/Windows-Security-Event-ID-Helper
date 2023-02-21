@@ -23,7 +23,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -50,7 +52,10 @@
       "Workstation": "Success and Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "YAMATO",
+      "ANSSI"
+    ]
   },
   {
     "category": "Object Access",
@@ -78,7 +83,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -105,7 +111,10 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -132,7 +141,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -161,7 +171,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -189,7 +200,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -217,7 +230,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -244,7 +259,10 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -268,7 +286,10 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -294,7 +315,11 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -320,7 +345,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -346,7 +373,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -372,7 +401,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -396,7 +428,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -422,7 +457,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -448,7 +486,11 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -474,7 +516,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -500,7 +545,10 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -526,7 +574,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -552,7 +603,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -578,7 +632,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -634,7 +691,8 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -661,7 +719,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -687,7 +748,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -714,7 +778,9 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -798,7 +864,9 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -827,7 +895,9 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -856,7 +926,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -885,7 +956,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -915,7 +987,9 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "MDE",
+      "YAMATO"
     ]
   },
   {
@@ -942,7 +1016,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -968,7 +1044,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -994,7 +1072,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -1020,7 +1101,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -1046,7 +1130,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -1074,7 +1161,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -1103,7 +1191,9 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -1131,7 +1221,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -1158,7 +1249,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -1184,7 +1278,11 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "MDE",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -1208,7 +1306,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1235,7 +1335,9 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -1260,7 +1362,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1284,7 +1388,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1308,7 +1414,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1332,7 +1440,9 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1356,7 +1466,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1380,7 +1492,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1404,7 +1518,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1428,7 +1544,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1452,7 +1570,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1476,7 +1596,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1500,7 +1622,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1524,7 +1648,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1548,7 +1674,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1572,7 +1700,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1596,7 +1726,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1620,7 +1752,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1644,7 +1778,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
   },
   {
     "category": "Object Access",
@@ -1668,7 +1805,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
   },
   {
     "category": "Object Access",
@@ -1692,7 +1832,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1716,7 +1858,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1740,7 +1884,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1764,7 +1910,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1788,7 +1936,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
   },
   {
     "category": "Object Access",
@@ -1812,7 +1963,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
   },
   {
     "category": "Object Access",
@@ -1836,7 +1990,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1860,7 +2016,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1884,7 +2042,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1908,7 +2068,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1932,7 +2094,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1956,7 +2120,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -1980,7 +2146,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -2004,7 +2172,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -2028,7 +2198,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "CORTEX"
+    ]
   },
   {
     "category": "Object Access",
@@ -2052,7 +2225,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "Object Access",
@@ -2076,7 +2251,11 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO",
+      "CORTEX"
+    ]
   },
   {
     "category": "Object Access",
@@ -2102,7 +2281,11 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "JSCU-NL",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -2129,7 +2312,10 @@
       "Workstation": "Success and Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Object Access",
@@ -2155,6 +2341,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   }
 ]

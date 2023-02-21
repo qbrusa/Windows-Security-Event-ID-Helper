@@ -140,7 +140,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
+      "JSCU-NL",
+      "MDE",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -271,7 +274,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "MDE"
+    ]
   },
   {
     "category": "Detailed Tracking",
@@ -325,7 +330,9 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -382,7 +389,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -409,7 +417,10 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "YAMATO"
+    ]
   },
   {
     "category": "Detailed Tracking",
@@ -435,6 +446,8 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "YAMATO"
+    ]
   }
 ]

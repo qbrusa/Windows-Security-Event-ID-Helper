@@ -23,7 +23,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "MDE"
+    ]
   },
   {
     "category": "System",
@@ -49,7 +52,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "MDE"
+    ]
   },
   {
     "category": "System",
@@ -187,7 +193,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -213,7 +221,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -239,7 +249,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -322,7 +334,10 @@
       "Workstation": "Success and Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM",
+      "MDE"
+    ]
   },
   {
     "category": "System",
@@ -349,7 +364,9 @@
       "Workstation": "Success and Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -616,7 +633,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -646,7 +664,9 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
+      "CORTEX",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -732,7 +752,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
+      "SRV-ETM",
+      "YAMATO"
     ]
   },
   {
@@ -818,7 +839,11 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "JSCU-NL",
+      "MDE",
+      "YAMATO",
+      "ANSSI"
     ]
   },
   {
@@ -959,7 +984,8 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
+      "SRV-ETM",
+      "JSCU-NL"
     ]
   },
   {
@@ -986,7 +1012,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1012,7 +1040,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1038,7 +1068,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1065,7 +1097,9 @@
       "Workstation": "Success and Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1091,7 +1125,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1173,7 +1209,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1199,7 +1237,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1225,7 +1265,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1251,7 +1293,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1277,7 +1321,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1303,7 +1349,9 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1329,7 +1377,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1355,7 +1405,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1381,7 +1433,9 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   },
   {
     "category": "System",
@@ -1407,6 +1461,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SRV-ETM"
+    ]
   }
 ]
