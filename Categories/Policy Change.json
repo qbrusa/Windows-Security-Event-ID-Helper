@@ -993,7 +993,7 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -1022,7 +1022,7 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -1051,7 +1051,7 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -1138,7 +1138,7 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
@@ -1167,7 +1167,7 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
