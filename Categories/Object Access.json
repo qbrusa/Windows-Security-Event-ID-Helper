@@ -2345,5 +2345,34 @@
       "SRV-ETM",
       "YAMATO"
     ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit SAM",
+    "eventID": "4661",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A handle to an object was requested.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit SAM",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4661",
+    "volume": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "microsoftBaseline": {
+      "DomainController": "",
+      "Server": "",
+      "Workstation": ""
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [ ]
   }
 ]
+
+
