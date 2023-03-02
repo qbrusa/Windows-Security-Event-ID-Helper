@@ -62,7 +62,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -217,7 +217,7 @@
       "JSCU-NL",
       "SRV-ETM"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -282,7 +282,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -344,7 +344,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -374,7 +374,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -407,7 +407,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484T1484T1484T1484"
+    "MitreTTP": "T1484"
   },
   {
     "category": "Policy Change",
@@ -440,7 +440,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -472,7 +472,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -503,7 +503,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -536,7 +536,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484T1484T1484T1484"
+    "MitreTTP": "T1484"
   },
   {
     "category": "Policy Change",
@@ -597,7 +597,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -628,7 +628,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -660,7 +660,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -721,7 +721,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -752,7 +752,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",

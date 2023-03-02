@@ -27,7 +27,7 @@
       "JSCU-NL",
       "SENTINEL"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Other Events",
@@ -61,7 +61,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1070.001T1070.001T1070.001T1070.001"
+    "MitreTTP": "T1070.001"
   },
   {
     "category": "Other Events",
@@ -88,7 +88,7 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Other Events",

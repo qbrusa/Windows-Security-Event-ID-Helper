@@ -696,7 +696,7 @@
       "YAMATO",
       "ANSSI"
     ],
-    "MitreTTP": "T1070.006T1070.006T1070.006T1070.006"
+    "MitreTTP": "T1070.006"
   },
   {
     "category": "System",
@@ -725,7 +725,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "System",
@@ -757,7 +757,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1547.008T1547.008T1547.008T1547.008"
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -790,7 +790,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1547.008T1547.008T1547.008T1547.008"
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -854,7 +854,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1547.008T1547.008T1547.008T1547.008"
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -889,7 +889,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1543.003T1543.003T1543.003T1543.003"
+    "MitreTTP": "T1543.003"
   },
   {
     "category": "System",
@@ -1036,7 +1036,7 @@
       "SRV-ETM",
       "JSCU-NL"
     ],
-    "MitreTTP": "T1036.001T1036.001T1036.001T1036.001"
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",
@@ -1211,7 +1211,7 @@
     "tags": [
       "JSCU-NL"
     ],
-    "MitreTTP": "T1036.001T1036.001T1036.001T1036.001"
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",
@@ -1240,7 +1240,7 @@
     "tags": [
       "JSCU-NL"
     ],
-    "MitreTTP": "T1036.001T1036.001T1036.001T1036.001"
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",

@@ -90,7 +90,7 @@
       "ANSSI",
       "MDI"
     ],
-    "MitreTTP": "T1110T1110T1110T1110"
+    "MitreTTP": "T1110"
   },
   {
     "category": "Account Logon",
@@ -119,7 +119,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1110T1110T1110T1110"
+    "MitreTTP": "T1110"
   },
   {
     "category": "Account Logon",
@@ -154,7 +154,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1110T1558T1110T1558T1110T1558T1110T1558"
+    "MitreTTP": "T1558"
   },
   {
     "category": "Account Logon",
@@ -256,7 +256,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1558T1558T1558T1558"
+    "MitreTTP": "T1558"
   },
   {
     "category": "Account Logon",
@@ -321,7 +321,7 @@
       "MDI",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1136T1136T1136T1136"
+    "MitreTTP": "T1136"
   },
   {
     "category": "Account Management",
@@ -355,7 +355,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -388,7 +388,7 @@
       "YAMATO",
       "MDI"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -864,7 +864,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1003T1003T1003T1003"
+    "MitreTTP": "T1003"
   },
   {
     "category": "Account Management",
@@ -964,7 +964,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -998,7 +998,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1100,7 +1100,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1135,7 +1135,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1334,7 +1334,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1368,7 +1368,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1466,7 +1466,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1069.002T1069.002T1069.002T1069.002"
+    "MitreTTP": "T1069.002"
   },
   {
     "category": "Account Management",
@@ -1502,7 +1502,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1136T1136T1136T1136"
+    "MitreTTP": "T1136"
   },
   {
     "category": "Account Management",
@@ -1537,7 +1537,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1572,7 +1572,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1607,7 +1607,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1641,7 +1641,7 @@
       "ANSSI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1712,7 +1712,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1746,7 +1746,7 @@
       "ANSSI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1110T1110T1110T1110"
+    "MitreTTP": "T1110"
   },
   {
     "category": "Account Management",
@@ -1778,7 +1778,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1134.005T1134.005T1134.005T1134.005"
+    "MitreTTP": "T1134.005"
   },
   {
     "category": "Account Management",
@@ -1810,7 +1810,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1134.005T1134.005T1134.005T1134.005"
+    "MitreTTP": "T1134.005"
   },
   {
     "category": "Account Management",
@@ -1843,7 +1843,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1110T1110T1110T1110"
+    "MitreTTP": "T1110"
   },
   {
     "category": "Account Management",
@@ -1876,7 +1876,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1908,7 +1908,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1941,7 +1941,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1098T1098T1098T1098"
+    "MitreTTP": "T1098"
   },
   {
     "category": "Account Management",
@@ -1974,7 +1974,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1069.001T1069.001T1069.001T1069.001"
+    "MitreTTP": "T1069.001"
   },
   {
     "category": "Account Management",
@@ -2006,7 +2006,7 @@
       "MDE",
       "YAMATO"
     ],
-    "MitreTTP": "T1555.004T1555.004T1555.004T1555.004"
+    "MitreTTP": "T1555.004"
   },
   {
     "category": "Account Management",
@@ -2191,7 +2191,7 @@
       "ANSSI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1091T1091T1091T1091"
+    "MitreTTP": "T1091"
   },
   {
     "category": "Detailed Tracking",
@@ -2329,7 +2329,7 @@
       "MDE",
       "SENTINEL"
     ],
-    "MitreTTP": "T1091T1091T1091T1091"
+    "MitreTTP": "T1091"
   },
   {
     "category": "Detailed Tracking",
@@ -2541,7 +2541,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -2571,7 +2571,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -2601,7 +2601,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -2632,7 +2632,7 @@
       "SRV-ETM",
       "SENTINEL"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -2781,7 +2781,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1003T1201"
+    "MitreTTP": "T1003,T1201"
   },
   {
     "category": "DS Access",
@@ -2815,7 +2815,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1069.002T1069.002T1069.002T1069.002"
+    "MitreTTP": "T1069.002"
   },
   {
     "category": "DS Access",
@@ -2847,7 +2847,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1222.001T1222.001T1222.001T1222.001"
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "DS Access",
@@ -2878,7 +2878,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -3062,7 +3062,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1003T1201"
+    "MitreTTP": "T1003,T1201"
   },
   {
     "category": "Logon Logoff",
@@ -3433,7 +3433,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",
@@ -3505,7 +3505,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1134.002T1134.002T1134.002T1134.002"
+    "MitreTTP": "T1134.002"
   },
   {
     "category": "Logon Logoff",
@@ -3535,7 +3535,7 @@
       "SRV-ETM",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134.005T1134.005T1134.005T1134.005"
+    "MitreTTP": "T1134.005"
   },
   {
     "category": "Logon Logoff",
@@ -3568,7 +3568,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1558T1558T1558T1558"
+    "MitreTTP": "T1558"
   },
   {
     "category": "Logon Logoff",
@@ -3783,7 +3783,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",
@@ -3883,7 +3883,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",
@@ -3914,7 +3914,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",
@@ -4598,7 +4598,7 @@
       "ANSSI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",
@@ -5443,7 +5443,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -5476,7 +5476,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -5508,7 +5508,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -5539,7 +5539,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -5574,7 +5574,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -5603,7 +5603,7 @@
     "tags": [
       "YAMATO"
     ],
-    "MitreTTP": "T1498T1498T1498T1498"
+    "MitreTTP": "T1498"
   },
   {
     "category": "Object Access",
@@ -5632,7 +5632,7 @@
     "tags": [
       "YAMATO"
     ],
-    "MitreTTP": "T1498T1498T1498T1498"
+    "MitreTTP": "T1498"
   },
   {
     "category": "Object Access",
@@ -6898,7 +6898,7 @@
       "CORTEX",
       "SENTINEL"
     ],
-    "MitreTTP": "T1649T1649T1649T1649"
+    "MitreTTP": "T1649"
   },
   {
     "category": "Object Access",
@@ -7024,7 +7024,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1003T1201"
+    "MitreTTP": "T1003,T1201"
   },
   {
     "category": "Object Access",
@@ -7059,7 +7059,7 @@
       "CORTEX",
       "SENTINEL"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",
@@ -7090,7 +7090,7 @@
       "YAMATO",
       "ANSSI"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",
@@ -7119,7 +7119,7 @@
     "tags": [
       "YAMATO"
     ],
-    "MitreTTP": "T1222.001T1222.001T1222.001T1222.001"
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "Object Access",
@@ -7149,7 +7149,7 @@
       "YAMATO",
       "ANSSI"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",
@@ -7208,7 +7208,7 @@
       "JSCU-NL",
       "SENTINEL"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Other Events",
@@ -7242,7 +7242,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1070.001T1070.001T1070.001T1070.001"
+    "MitreTTP": "T1070.001"
   },
   {
     "category": "Other Events",
@@ -7269,7 +7269,7 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Other Events",
@@ -7390,7 +7390,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -7545,7 +7545,7 @@
       "JSCU-NL",
       "SRV-ETM"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -7610,7 +7610,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -7672,7 +7672,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -7702,7 +7702,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -7735,7 +7735,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484T1484T1484T1484"
+    "MitreTTP": "T1484"
   },
   {
     "category": "Policy Change",
@@ -7768,7 +7768,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -7800,7 +7800,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -7831,7 +7831,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -7864,7 +7864,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484T1484T1484T1484"
+    "MitreTTP": "T1484"
   },
   {
     "category": "Policy Change",
@@ -7925,7 +7925,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -7956,7 +7956,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -7988,7 +7988,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1484.002T1484.002T1484.002T1484.002"
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -8049,7 +8049,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -8080,7 +8080,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134T1134T1134T1134"
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -11178,7 +11178,7 @@
       "YAMATO",
       "ANSSI"
     ],
-    "MitreTTP": "T1070.006T1070.006T1070.006T1070.006"
+    "MitreTTP": "T1070.006"
   },
   {
     "category": "System",
@@ -11207,7 +11207,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "System",
@@ -11239,7 +11239,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1547.008T1547.008T1547.008T1547.008"
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -11272,7 +11272,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1547.008T1547.008T1547.008T1547.008"
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -11336,7 +11336,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1547.008T1547.008T1547.008T1547.008"
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -11371,7 +11371,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1543.003T1543.003T1543.003T1543.003"
+    "MitreTTP": "T1543.003"
   },
   {
     "category": "System",
@@ -11518,7 +11518,7 @@
       "SRV-ETM",
       "JSCU-NL"
     ],
-    "MitreTTP": "T1036.001T1036.001T1036.001T1036.001"
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",
@@ -11693,7 +11693,7 @@
     "tags": [
       "JSCU-NL"
     ],
-    "MitreTTP": "T1036.001T1036.001T1036.001T1036.001"
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",
@@ -11722,7 +11722,7 @@
     "tags": [
       "JSCU-NL"
     ],
-    "MitreTTP": "T1036.001T1036.001T1036.001T1036.001"
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",

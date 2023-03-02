@@ -58,7 +58,7 @@
       "ANSSI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",
@@ -903,7 +903,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -936,7 +936,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -968,7 +968,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -999,7 +999,7 @@
       "SRV-ETM",
       "YAMATO"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -1034,7 +1034,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
+    "MitreTTP": "T1053.005"
   },
   {
     "category": "Object Access",
@@ -1063,7 +1063,7 @@
     "tags": [
       "YAMATO"
     ],
-    "MitreTTP": "T1498T1498T1498T1498"
+    "MitreTTP": "T1498"
   },
   {
     "category": "Object Access",
@@ -1092,7 +1092,7 @@
     "tags": [
       "YAMATO"
     ],
-    "MitreTTP": "T1498T1498T1498T1498"
+    "MitreTTP": "T1498"
   },
   {
     "category": "Object Access",
@@ -2358,7 +2358,7 @@
       "CORTEX",
       "SENTINEL"
     ],
-    "MitreTTP": "T1649T1649T1649T1649"
+    "MitreTTP": "T1649"
   },
   {
     "category": "Object Access",
@@ -2484,7 +2484,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1003T1201"
+    "MitreTTP": "T1003,T1201"
   },
   {
     "category": "Object Access",
@@ -2519,7 +2519,7 @@
       "CORTEX",
       "SENTINEL"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",
@@ -2550,7 +2550,7 @@
       "YAMATO",
       "ANSSI"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",
@@ -2579,7 +2579,7 @@
     "tags": [
       "YAMATO"
     ],
-    "MitreTTP": "T1222.001T1222.001T1222.001T1222.001"
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "Object Access",
@@ -2609,7 +2609,7 @@
       "YAMATO",
       "ANSSI"
     ],
-    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
+    "MitreTTP": "T1021.002"
   },
   {
     "category": "Object Access",

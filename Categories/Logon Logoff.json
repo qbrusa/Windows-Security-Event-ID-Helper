@@ -368,7 +368,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",
@@ -440,7 +440,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1134.002T1134.002T1134.002T1134.002"
+    "MitreTTP": "T1134.002"
   },
   {
     "category": "Logon Logoff",
@@ -470,7 +470,7 @@
       "SRV-ETM",
       "SENTINEL"
     ],
-    "MitreTTP": "T1134.005T1134.005T1134.005T1134.005"
+    "MitreTTP": "T1134.005"
   },
   {
     "category": "Logon Logoff",
@@ -503,7 +503,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1558T1558T1558T1558"
+    "MitreTTP": "T1558"
   },
   {
     "category": "Logon Logoff",
@@ -718,7 +718,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",
@@ -818,7 +818,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",
@@ -849,7 +849,7 @@
       "YAMATO",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1078T1078T1078T1078"
+    "MitreTTP": "T1078"
   },
   {
     "category": "Logon Logoff",

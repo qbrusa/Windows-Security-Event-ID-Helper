@@ -27,7 +27,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -57,7 +57,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -87,7 +87,7 @@
     "tags": [
       "SRV-ETM"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -118,7 +118,7 @@
       "SRV-ETM",
       "SENTINEL"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -267,7 +267,7 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1003T1201"
+    "MitreTTP": "T1003,T1201"
   },
   {
     "category": "DS Access",
@@ -301,7 +301,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1069.002T1069.002T1069.002T1069.002"
+    "MitreTTP": "T1069.002"
   },
   {
     "category": "DS Access",
@@ -333,7 +333,7 @@
       "MDI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1222.001T1222.001T1222.001T1222.001"
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "DS Access",
@@ -364,7 +364,7 @@
       "YAMATO",
       "SENTINEL"
     ],
-    "MitreTTP": "T1207T1207T1207T1207"
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -548,6 +548,6 @@
       "SENTINEL",
       "ADSECURITY"
     ],
-    "MitreTTP": "T1003T1201"
+    "MitreTTP": "T1003,T1201"
   }
 ]

@@ -151,7 +151,7 @@
       "ANSSI",
       "SENTINEL"
     ],
-    "MitreTTP": "T1091T1091T1091T1091"
+    "MitreTTP": "T1091"
   },
   {
     "category": "Detailed Tracking",
@@ -289,7 +289,7 @@
       "MDE",
       "SENTINEL"
     ],
-    "MitreTTP": "T1091T1091T1091T1091"
+    "MitreTTP": "T1091"
   },
   {
     "category": "Detailed Tracking",
