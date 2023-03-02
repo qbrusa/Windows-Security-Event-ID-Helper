@@ -27,7 +27,8 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -57,8 +58,11 @@
       "JSCU-NL",
       "SRV-ETM",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -87,7 +91,8 @@
     "tags": [
       "JSCU-NL",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -115,8 +120,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -145,8 +152,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -175,8 +184,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -205,7 +216,8 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -235,8 +247,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -265,8 +279,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "Policy Change",
@@ -296,7 +312,8 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -326,7 +343,8 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -355,7 +373,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -385,8 +404,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1484"
   },
   {
     "category": "Policy Change",
@@ -415,8 +436,11 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -445,8 +469,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -474,8 +500,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -504,8 +532,11 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1484"
   },
   {
     "category": "Policy Change",
@@ -534,7 +565,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -564,7 +596,8 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -594,7 +627,8 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -623,8 +657,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1484.002"
   },
   {
     "category": "Policy Change",
@@ -653,7 +689,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -681,8 +718,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -710,8 +749,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1134"
   },
   {
     "category": "Policy Change",
@@ -739,7 +780,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -767,7 +809,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -796,7 +839,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -825,7 +869,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -853,8 +898,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -883,7 +930,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -911,8 +959,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -941,7 +991,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -970,7 +1021,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -993,13 +1045,14 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1022,13 +1075,14 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1051,13 +1105,14 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1086,7 +1141,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1114,8 +1170,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1138,13 +1196,14 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1167,13 +1226,14 @@
     "microsoftBaseline": {
       "DomainController": "Failure",
       "Server": "Failure",
-      "Workstation": "Success"
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1201,7 +1261,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1227,7 +1288,8 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1254,8 +1316,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
-    ]
+      "JSCU-NL",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1281,7 +1345,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1307,7 +1372,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1336,7 +1402,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1365,7 +1432,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1394,7 +1462,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1423,7 +1492,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1452,7 +1522,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1481,7 +1552,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1510,7 +1582,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1539,7 +1612,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1567,7 +1641,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1594,8 +1669,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1622,8 +1699,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1652,8 +1731,10 @@
     "tags": [
       "SRV-ETM",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "Policy Change",
@@ -1682,8 +1763,10 @@
     "tags": [
       "SRV-ETM",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "Policy Change",
@@ -1711,7 +1794,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1739,7 +1823,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1767,7 +1852,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1795,7 +1881,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1823,7 +1910,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1851,7 +1939,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1879,7 +1968,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1907,7 +1997,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1935,7 +2026,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1963,7 +2055,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -1991,7 +2084,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2019,7 +2113,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2047,7 +2142,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2075,7 +2171,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2103,7 +2200,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2131,7 +2229,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2159,7 +2258,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2187,7 +2287,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2215,7 +2316,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2243,7 +2345,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2271,7 +2374,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2299,7 +2403,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2327,7 +2432,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2355,7 +2461,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2383,7 +2490,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2411,7 +2519,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2439,7 +2548,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2467,7 +2577,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2495,7 +2606,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2523,7 +2635,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2551,7 +2664,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2579,7 +2693,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2607,7 +2722,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2635,7 +2751,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2663,7 +2780,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2691,7 +2809,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2719,7 +2838,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2747,7 +2867,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2775,7 +2896,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Policy Change",
@@ -2803,6 +2925,7 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   }
 ]

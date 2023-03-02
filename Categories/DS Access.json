@@ -26,7 +26,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -55,7 +56,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -84,7 +86,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -112,8 +115,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -141,7 +146,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -169,7 +175,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -197,7 +204,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -225,7 +233,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -254,8 +263,11 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1003,T1201"
   },
   {
     "category": "DS Access",
@@ -285,8 +297,11 @@
     "tags": [
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1069.002"
   },
   {
     "category": "DS Access",
@@ -314,8 +329,11 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "DS Access",
@@ -343,8 +361,10 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1207"
   },
   {
     "category": "DS Access",
@@ -373,7 +393,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -402,7 +423,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -431,7 +453,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -458,8 +481,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -487,8 +512,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "DS Access",
@@ -517,7 +544,10 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1003,T1201"
   }
 ]

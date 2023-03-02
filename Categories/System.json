@@ -25,8 +25,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "MDE"
-    ]
+      "MDE",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -55,7 +57,8 @@
     "tags": [
       "SRV-ETM",
       "MDE"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -83,7 +86,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -111,7 +115,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -139,7 +144,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -167,7 +173,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -195,7 +202,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -222,8 +230,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -251,7 +261,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -279,7 +290,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -307,7 +319,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -337,7 +350,8 @@
     "tags": [
       "SRV-ETM",
       "MDE"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -365,8 +379,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -390,7 +406,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -414,7 +431,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -438,7 +456,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -462,7 +481,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -486,7 +506,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -510,7 +531,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -534,7 +556,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -558,7 +581,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -582,7 +606,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -606,7 +631,8 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -634,8 +660,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -667,7 +695,8 @@
       "CORTEX",
       "YAMATO",
       "ANSSI"
-    ]
+    ],
+    "MitreTTP": "T1070.006"
   },
   {
     "category": "System",
@@ -695,7 +724,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": "T1562.002"
   },
   {
     "category": "System",
@@ -723,8 +753,11 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -753,8 +786,11 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -782,8 +818,11 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -811,8 +850,11 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL",
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1547.008"
   },
   {
     "category": "System",
@@ -843,8 +885,11 @@
       "JSCU-NL",
       "MDE",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1543.003"
   },
   {
     "category": "System",
@@ -872,7 +917,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -900,7 +946,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -928,7 +975,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -957,7 +1005,8 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -986,7 +1035,8 @@
     "tags": [
       "SRV-ETM",
       "JSCU-NL"
-    ]
+    ],
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",
@@ -1014,7 +1064,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1042,7 +1093,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1070,7 +1122,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1099,7 +1152,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1127,7 +1181,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1155,7 +1210,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL"
-    ]
+    ],
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",
@@ -1183,7 +1239,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL"
-    ]
+    ],
+    "MitreTTP": "T1036.001"
   },
   {
     "category": "System",
@@ -1211,7 +1268,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1239,7 +1297,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1267,7 +1326,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1295,7 +1355,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1323,7 +1384,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1351,7 +1413,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1379,7 +1442,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1407,7 +1471,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
@@ -1435,7 +1500,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "System",
