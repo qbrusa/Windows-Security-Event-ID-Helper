@@ -2361,14 +2361,145 @@
     "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit SAM",
     "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4661",
     "volume": {
-      "DomainController": "",
+      "DomainController": "High",
       "Server": "",
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "",
-      "Server": "",
-      "Workstation": ""
+      "DomainController": "No",
+      "Server": "No",
+      "Workstation": "No"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [ ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File Share",
+    "eventID": "5140",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A network share object was accessed.",
+    "availableSettings": [
+      "Success",
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File Share",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5140",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low to High",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success and Failure",
+      "Server": "Success and Failure",
+      "Workstation": "Success and Failure"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [ ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File Share",
+    "eventID": "5142",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A network share object was added.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File Share",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5142",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low to High",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [ ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File Share",
+    "eventID": "5143",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A network share object was modified.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File Share",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5143",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low to High",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [ ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File Share",
+    "eventID": "5144",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "A network share object was deleted.",
+    "availableSettings": [
+      "Success"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File Share",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5144",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low to High",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Success",
+      "Server": "Success",
+      "Workstation": "Success"
+    },
+    "securityMonitoringRecommandation": "Yes",
+    "tags": [ ]
+  },
+  {
+    "category": "Object Access",
+    "subCategory": "Audit File Share",
+    "eventID": "5168",
+    "level": "Information",
+    "channel": "Security",
+    "provider": "Microsoft-Windows-Security-Auditing",
+    "description": "SPN check for SMB/SMB2 failed.",
+    "availableSettings": [
+      "Failure"
+    ],
+    "gpoSettings": "Computer Configuration\\Policies\\Windows Settings\\Security Settings\\Advanced Audit Policy Configuration\\Object Access\\Audit File Share",
+    "documentation": "https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5168",
+    "volume": {
+      "DomainController": "High",
+      "Server": "Low to High",
+      "Workstation": "Low"
+    },
+    "microsoftBaseline": {
+      "DomainController": "Failure",
+      "Server": "Failure",
+      "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [ ]
