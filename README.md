@@ -20,11 +20,15 @@ Below the descriptions of each tag and the source of the recommendation :
 - YAMATO = Each event with rules or Not Yet from [Yamato repositories](https://github.com/Yamato-Security/EnableWindowsLogSettings/blob/main/ConfiguringSecurityLogAuditPolicies.md)
 - MDE = All events from Olaf Hartung [defender analysis post](https://medium.com/falconforce/microsoft-defender-for-endpoint-internals-0x02-audit-settings-and-telemetry-1d0af3ebfb27)
 - ANSSI = From [ANSSI-FR selection](https://github.com/ANSSI-FR/guide-journalisation-microsoft/blob/main/Standard_WEC_query.xml)
+- MDI = From [MDI](https://learn.microsoft.com/en-us/defender-for-identity/configure-windows-event-collection)
+- SENTINEL = From [sentinel/windows-security-event-id-reference](https://learn.microsoft.com/en-us/azure/sentinel/windows-security-event-id-reference)
+- ADSECURITY = From [AD Security blog](https://adsecurity.org/?p=3299)
 
 # Sources to build this project
 - https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/advanced-security-audit-policy-settings
 - https://ela.st/tjs-winevt-auditing
 - https://github.com/JSCU-NL/logging-essentials
+- https://github.com/mdecrevoisier/Splunk-input-windows-baseline/blob/main/splunk-windows-input/win_input.conf 
 
 # 🍰 Contributing    
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
