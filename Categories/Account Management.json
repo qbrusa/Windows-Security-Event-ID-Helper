@@ -111,7 +111,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -139,7 +139,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -167,7 +167,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -195,7 +195,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -223,7 +223,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -251,7 +251,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -279,7 +279,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -307,7 +307,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -335,7 +335,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -363,7 +363,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -391,7 +391,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -419,7 +419,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -447,7 +447,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -475,7 +475,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
@@ -503,7 +503,7 @@
       "Workstation": ""
     },
     "microsoftBaseline": {
-      "DomainController": "Success",
+      "DomainController": "IF",
       "Server": "",
       "Workstation": ""
     },
