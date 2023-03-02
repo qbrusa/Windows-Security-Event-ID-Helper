@@ -27,8 +27,11 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1136T1136T1136T1136"
   },
   {
     "category": "Account Management",
@@ -58,8 +61,11 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -89,8 +95,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -117,8 +125,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -145,8 +155,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -173,8 +185,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -202,7 +216,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -230,7 +245,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -258,7 +274,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -285,8 +302,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -313,8 +332,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -341,8 +362,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -369,8 +392,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "MDI"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -398,7 +423,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -425,8 +451,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -453,8 +481,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -481,8 +511,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -508,7 +540,10 @@
       "Workstation": ""
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "MDI"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -538,7 +573,8 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1003T1003T1003T1003"
   },
   {
     "category": "Account Management",
@@ -567,8 +603,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -598,8 +636,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -630,8 +670,11 @@
       "SRV-ETM",
       "CORTEX",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "MDI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -661,8 +704,11 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -691,8 +737,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -724,7 +772,8 @@
       "CORTEX",
       "MDE",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -756,8 +805,12 @@
       "CORTEX",
       "MDE",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "MDI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -788,8 +841,11 @@
       "SRV-ETM",
       "CORTEX",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -820,7 +876,8 @@
       "SRV-ETM",
       "MDE",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -849,8 +906,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "CORTEX"
-    ]
+      "CORTEX",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -880,8 +939,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -911,8 +972,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -942,8 +1005,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -974,8 +1039,12 @@
       "SRV-ETM",
       "CORTEX",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "MDI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1005,8 +1074,11 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1035,8 +1107,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "MDI"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -1066,8 +1140,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -1097,8 +1173,10 @@
       "JSCU-NL",
       "CORTEX",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1069.002T1069.002T1069.002T1069.002"
   },
   {
     "category": "Account Management",
@@ -1130,8 +1208,11 @@
       "CORTEX",
       "MDE",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1136T1136T1136T1136"
   },
   {
     "category": "Account Management",
@@ -1162,8 +1243,11 @@
       "SRV-ETM",
       "CORTEX",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1194,8 +1278,11 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1227,8 +1314,10 @@
       "SRV-ETM",
       "CORTEX",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1259,8 +1348,10 @@
       "SRV-ETM",
       "CORTEX",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1292,8 +1383,11 @@
       "CORTEX",
       "MDE",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "MDI",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Account Management",
@@ -1324,8 +1418,11 @@
       "SRV-ETM",
       "CORTEX",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1356,8 +1453,10 @@
       "SRV-ETM",
       "CORTEX",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1110T1110T1110T1110"
   },
   {
     "category": "Account Management",
@@ -1386,8 +1485,10 @@
     "tags": [
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1134.005T1134.005T1134.005T1134.005"
   },
   {
     "category": "Account Management",
@@ -1416,8 +1517,10 @@
     "tags": [
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1134.005T1134.005T1134.005T1134.005"
   },
   {
     "category": "Account Management",
@@ -1447,8 +1550,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1110T1110T1110T1110"
   },
   {
     "category": "Account Management",
@@ -1478,8 +1583,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1508,8 +1615,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1539,8 +1648,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1098T1098T1098T1098"
   },
   {
     "category": "Account Management",
@@ -1569,8 +1680,11 @@
     "tags": [
       "JSCU-NL",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1069.001T1069.001T1069.001T1069.001"
   },
   {
     "category": "Account Management",
@@ -1601,7 +1715,8 @@
       "SRV-ETM",
       "MDE",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1555.004T1555.004T1555.004T1555.004"
   },
   {
     "category": "Account Management",
@@ -1631,6 +1746,7 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   }
 ]

@@ -25,8 +25,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "ADSECURITY"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -55,7 +57,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -84,7 +87,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -113,7 +117,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -143,8 +148,10 @@
       "JSCU-NL",
       "MDE",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1091T1091T1091T1091"
   },
   {
     "category": "Detailed Tracking",
@@ -170,7 +177,8 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -196,7 +204,8 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -222,7 +231,8 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -248,7 +258,8 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -275,8 +286,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "MDE"
-    ]
+      "MDE",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1091T1091T1091T1091"
   },
   {
     "category": "Detailed Tracking",
@@ -302,7 +315,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "No",
-    "tags": []
+    "tags": [
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -332,8 +348,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -361,7 +379,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -390,8 +409,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -420,7 +441,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Detailed Tracking",
@@ -448,6 +470,7 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1134"
   }
 ]

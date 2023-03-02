@@ -24,8 +24,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "JSCU-NL"
-    ]
+      "JSCU-NL",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
   },
   {
     "category": "Other Events",
@@ -55,8 +57,11 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1070.001T1070.001T1070.001T1070.001"
   },
   {
     "category": "Other Events",
@@ -82,7 +87,8 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": "T1562.002T1562.002T1562.002T1562.002"
   },
   {
     "category": "Other Events",
@@ -108,7 +114,8 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "Other Events",
@@ -134,6 +141,9 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   }
 ]

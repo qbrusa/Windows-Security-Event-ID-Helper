@@ -29,8 +29,11 @@
       "MDE",
       "YAMATO",
       "ANSSI",
-      "CORTEX"
-    ]
+      "CORTEX",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1110"
   },
   {
     "category": "Logon Logoff",
@@ -59,7 +62,8 @@
     "tags": [
       "JSCU-NL",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -87,7 +91,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -115,7 +120,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -143,7 +149,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -171,7 +178,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -199,7 +207,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -227,7 +236,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -255,7 +265,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -285,8 +296,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -316,8 +329,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -349,8 +364,11 @@
       "CORTEX",
       "MDE",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1078T1078T1078T1078"
   },
   {
     "category": "Logon Logoff",
@@ -382,8 +400,11 @@
       "MDE",
       "YAMATO",
       "ANSSI",
-      "CORTEX"
-    ]
+      "CORTEX",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1110"
   },
   {
     "category": "Logon Logoff",
@@ -415,8 +436,11 @@
       "CORTEX",
       "MDE",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1134.002T1134.002T1134.002T1134.002"
   },
   {
     "category": "Logon Logoff",
@@ -443,8 +467,10 @@
     },
     "securityMonitoringRecommandation": "Yes",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1134.005T1134.005T1134.005T1134.005"
   },
   {
     "category": "Logon Logoff",
@@ -474,8 +500,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "CORTEX",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1558T1558T1558T1558"
   },
   {
     "category": "Logon Logoff",
@@ -503,7 +531,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -531,7 +560,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "JSCU-NL"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -560,8 +590,10 @@
     "tags": [
       "CORTEX",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -590,8 +622,10 @@
     "tags": [
       "CORTEX",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -620,8 +654,10 @@
     "tags": [
       "CORTEX",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -650,8 +686,10 @@
     "tags": [
       "CORTEX",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -679,7 +717,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": "T1078T1078T1078T1078"
   },
   {
     "category": "Logon Logoff",
@@ -710,8 +749,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -741,7 +782,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -772,8 +814,11 @@
       "SRV-ETM",
       "CORTEX",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1078T1078T1078T1078"
   },
   {
     "category": "Logon Logoff",
@@ -801,8 +846,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1078T1078T1078T1078"
   },
   {
     "category": "Logon Logoff",
@@ -828,7 +875,8 @@
       "Workstation": "IF"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": []
+    "tags": [],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -856,7 +904,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -884,7 +933,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -912,7 +962,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -940,7 +991,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -968,7 +1020,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -996,7 +1049,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1024,7 +1078,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1052,7 +1107,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1080,7 +1136,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1108,7 +1165,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1136,7 +1194,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1164,7 +1223,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1190,8 +1250,10 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM",
-      "CORTEX"
-    ]
+      "CORTEX",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1216,8 +1278,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1243,7 +1307,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1269,7 +1334,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1295,7 +1361,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1321,7 +1388,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1346,8 +1414,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1373,7 +1443,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Logon Logoff",
@@ -1400,6 +1471,7 @@
     "tags": [
       "SRV-ETM",
       "CORTEX"
-    ]
+    ],
+    "MitreTTP": ""
   }
 ]

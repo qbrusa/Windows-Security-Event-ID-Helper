@@ -25,7 +25,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -54,8 +55,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
   },
   {
     "category": "Object Access",
@@ -85,7 +88,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -114,7 +118,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -143,7 +148,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -172,8 +178,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1003.001"
   },
   {
     "category": "Object Access",
@@ -203,7 +211,8 @@
       "SRV-ETM",
       "MDE",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -232,8 +241,10 @@
     "tags": [
       "SRV-ETM",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "Object Access",
@@ -261,8 +272,10 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -289,7 +302,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -319,7 +333,8 @@
       "SRV-ETM",
       "MDE",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -347,7 +362,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -375,7 +391,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -404,7 +421,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -431,7 +449,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -460,7 +479,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -490,7 +510,8 @@
       "SRV-ETM",
       "MDE",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -519,7 +540,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -548,7 +570,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -577,7 +600,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -606,7 +630,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -635,7 +660,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -663,7 +689,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -693,7 +720,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -722,7 +750,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -751,7 +780,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -780,8 +810,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1003.001"
   },
   {
     "category": "Object Access",
@@ -807,7 +839,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -835,7 +868,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -866,8 +900,10 @@
       "SRV-ETM",
       "CORTEX",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
   },
   {
     "category": "Object Access",
@@ -897,8 +933,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
   },
   {
     "category": "Object Access",
@@ -927,8 +965,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
   },
   {
     "category": "Object Access",
@@ -958,7 +998,8 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
   },
   {
     "category": "Object Access",
@@ -989,8 +1030,11 @@
       "SRV-ETM",
       "CORTEX",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1053.005T1053.005T1053.005T1053.005"
   },
   {
     "category": "Object Access",
@@ -1018,7 +1062,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1498T1498T1498T1498"
   },
   {
     "category": "Object Access",
@@ -1046,7 +1091,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": "T1498T1498T1498T1498"
   },
   {
     "category": "Object Access",
@@ -1075,7 +1121,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1104,7 +1151,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1133,7 +1181,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1163,7 +1212,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1193,8 +1243,10 @@
       "JSCU-NL",
       "SRV-ETM",
       "YAMATO",
-      "ANSSI"
-    ]
+      "ANSSI",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1223,7 +1275,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1252,7 +1305,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1281,8 +1335,10 @@
     "tags": [
       "SRV-ETM",
       "MDE",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1222.001"
   },
   {
     "category": "Object Access",
@@ -1308,7 +1364,8 @@
     "securityMonitoringRecommandation": "Yes",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1337,8 +1394,10 @@
     "tags": [
       "JSCU-NL",
       "SRV-ETM",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1003.001"
   },
   {
     "category": "Object Access",
@@ -1363,8 +1422,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1389,8 +1450,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1415,8 +1478,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1442,7 +1507,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1468,7 +1534,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1494,7 +1561,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1519,8 +1587,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1546,7 +1616,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1572,7 +1643,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1598,7 +1670,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1624,7 +1697,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1650,7 +1724,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1676,7 +1751,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1702,7 +1778,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1728,7 +1805,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1754,7 +1832,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1781,7 +1860,8 @@
     "tags": [
       "SRV-ETM",
       "CORTEX"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1808,7 +1888,8 @@
     "tags": [
       "SRV-ETM",
       "CORTEX"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1834,7 +1915,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1860,7 +1942,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1886,7 +1969,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1912,7 +1996,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1938,8 +2023,10 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM",
-      "CORTEX"
-    ]
+      "CORTEX",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1965,8 +2052,10 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM",
-      "CORTEX"
-    ]
+      "CORTEX",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -1991,8 +2080,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2018,7 +2109,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2044,7 +2136,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2070,7 +2163,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2096,7 +2190,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2121,8 +2216,10 @@
     },
     "securityMonitoringRecommandation": "No",
     "tags": [
-      "SRV-ETM"
-    ]
+      "SRV-ETM",
+      "SENTINEL"
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2148,7 +2245,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2174,7 +2272,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2201,7 +2300,8 @@
     "tags": [
       "SRV-ETM",
       "CORTEX"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2227,7 +2327,8 @@
     "securityMonitoringRecommandation": "No",
     "tags": [
       "SRV-ETM"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2254,8 +2355,10 @@
     "tags": [
       "SRV-ETM",
       "YAMATO",
-      "CORTEX"
-    ]
+      "CORTEX",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1649T1649T1649T1649"
   },
   {
     "category": "Object Access",
@@ -2284,8 +2387,10 @@
     "tags": [
       "SRV-ETM",
       "JSCU-NL",
-      "YAMATO"
-    ]
+      "YAMATO",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1003.001"
   },
   {
     "category": "Object Access",
@@ -2315,7 +2420,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2344,7 +2450,8 @@
     "tags": [
       "SRV-ETM",
       "YAMATO"
-    ]
+    ],
+    "MitreTTP": ""
   },
   {
     "category": "Object Access",
@@ -2371,7 +2478,13 @@
       "Workstation": "No"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": [ ]
+    "tags": [
+      "SRV-ETM",
+      "YAMATO",
+      "SENTINEL",
+      "ADSECURITY"
+    ],
+    "MitreTTP": "T1003T1201"
   },
   {
     "category": "Object Access",
@@ -2398,7 +2511,15 @@
       "Workstation": "Success and Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": [ ]
+    "tags": [
+      "SRV-ETM",
+      "JSCU-NL",
+      "YAMATO",
+      "ANSSI",
+      "CORTEX",
+      "SENTINEL"
+    ],
+    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
   },
   {
     "category": "Object Access",
@@ -2424,7 +2545,12 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": [ ]
+    "tags": [
+      "JSCU-NL",
+      "YAMATO",
+      "ANSSI"
+    ],
+    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
   },
   {
     "category": "Object Access",
@@ -2450,7 +2576,10 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": [ ]
+    "tags": [
+      "YAMATO"
+    ],
+    "MitreTTP": "T1222.001T1222.001T1222.001T1222.001"
   },
   {
     "category": "Object Access",
@@ -2476,7 +2605,11 @@
       "Workstation": "Success"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": [ ]
+    "tags": [
+      "YAMATO",
+      "ANSSI"
+    ],
+    "MitreTTP": "T1021.002T1021.002T1021.002T1021.002"
   },
   {
     "category": "Object Access",
@@ -2502,8 +2635,9 @@
       "Workstation": "Failure"
     },
     "securityMonitoringRecommandation": "Yes",
-    "tags": [ ]
+    "tags": [
+      "YAMATO"
+    ],
+    "MitreTTP": "T1187T1187T1187T1187"
   }
 ]
-
-
